@@ -26,7 +26,7 @@ module.exports = async (req, res) => {
     if (contentType.includes('text/html')) {
       let body = await response.text();
 
-      const popupBlockerScript = \`
+      const popupBlockerScript = `
         <script>
           // Override window.open to block popups
           window.open = function(url, name, features) {
