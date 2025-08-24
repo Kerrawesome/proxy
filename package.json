@@ -1,0 +1,9 @@
+{
+  "name": "popup-blocker-proxy",
+  "version": "1.0.0",
+  "description": "A proxy to block popups, deployed on Vercel.",
+  "main": "api/proxy.js",
+  "dependencies": {
+    "node-fetch": "^2.6.6"
+  }
+}
